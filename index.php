@@ -36,7 +36,7 @@
 			
 			$noi = mysqli_num_rows($qu);
 			if($noi > 0){
-				echo "<div id='info'><a href='custLogin.php' style='text-decoration:none;'>Login</a> to order your food.<br/ ><br/ ><br/ ></div>";
+				echo "<div id='info'><a href='custlogin.php' style='text-decoration:none;'>Login</a> to order your food.<br/ ><br/ ><br/ ></div>";
 				echo "<table class='table' style='margin-left:100px;'>";
 				while($showitem = mysqli_fetch_assoc($qu)){
 					echo "<tr><th>".$showitem['resname']."<br /><br />".$showitem['iname']."<br /><br /><i class='fa fa-inr'></i> ".$showitem['iprice']."<br /><br />";
