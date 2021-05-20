@@ -39,7 +39,7 @@
 				echo "<div id='info'><a href='custlogin.php' style='text-decoration:none;'>Login</a> to order your food.<br/ ><br/ ><br/ ></div>";
 				echo "<table class='table' style='margin-left:100px;'>";
 				while($showitem = mysqli_fetch_assoc($qu)){
-					echo "<tr><th>".$showitem['resname']."<br /><br />".$showitem['iname']."<br /><br /><i class='fa fa-inr'></i> ".$showitem['iprice']."<br /><br />";
+					echo "<tr><th>".$showitem['resname']."<br /><br />".$showitem['iname']."<br /><br /> <i class='fa fa-inr'></i> ".$showitem['iprice']."<br /><br />";
 					if($showitem['itype'] == 'v'){
 						echo "<div id='itypeVeg'>Veg</div><br />";
 					} else {
