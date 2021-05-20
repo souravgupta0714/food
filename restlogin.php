@@ -18,7 +18,7 @@
 		{
 			$_SESSION['email'] = $row['resEmail'];
 			$_SESSION['resName'] = $row['resName'];
-			header('location: addMenuItem.php');
+			header('location: addmenuitem.php');
 		}
 		else
 			$msg = "WRONG USERNAME OR PASSWORD!";
