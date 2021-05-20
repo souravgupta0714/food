@@ -7,7 +7,7 @@
 	$msg="";
 	$total=0;
 	if(!isset($_SESSION['username']) || isset($_SESSION['resName']))
-		header('location: addMenuItem.php');
+		header('location: addmenuitem.php');
 		
 	if(isset($_POST['del'])){
 		$delQ = "DELETE FROM `cart` WHERE `id` = '$_POST[idDel]'";
