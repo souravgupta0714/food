@@ -4,7 +4,7 @@
 	session_start();
 	
 	if(isset($_SESSION['resName']))
-		header('location: addMenuItem.php');
+		header('location: addmenuitem.php');
 	else if (isset($_SESSION['username']))
 		header('location: menu.php');
 		
@@ -15,7 +15,7 @@
         $post = mysqli_query($dbc, $regQuery);
 
         if($post){
-            header('location: custLogin.php');
+            header('location: custlogin.php');
         } else{
             $msg="ERROR OCCURRED! PLEASE TRY AGAIN";
         }
