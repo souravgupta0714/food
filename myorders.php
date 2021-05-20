@@ -5,7 +5,7 @@
 	session_start();
 	
 	if(!isset($_SESSION['username']) || isset($_SESSION['resName']))
-		header('location: addMenuItem.php');
+		header('location: addmenuitem.php');
 ?>
 
 <!DOCTYPE html>
