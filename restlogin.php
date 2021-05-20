@@ -48,7 +48,7 @@
 				<div id="error_msg"><?php echo $msg ?></div>
 				<input type="submit" name="login" id="register" value="Login" class="btn btn-primary" />
 			</form>
-			Don't have an account? <a href="restroRegister.php">Register here</a>
+			Don't have an account? <a href="restroregister.php">Register here</a>
 		</div>
 	</div>
 </body>
